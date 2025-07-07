@@ -1,0 +1,132 @@
+body{
+    background-color: aliceblue; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgba(128, 128, 128, 0.273);
+    padding-bottom: 20px;
+    border-radius: 30px;
+    /* border-top: blue; */
+}
+.bodyBgW{
+    background-color: red;
+}
+h1{
+    font-size: 30px;
+    color: maroon;
+    background-color: transparent;
+    padding:10px 20px;
+    /* border: 2px solid rgba(174, 174, 184, 0.119);
+    border-radius:10px ; */
+    margin-bottom: 0;
+}
+h2{
+    font-size: 26px;
+    color: rgb(16, 65, 20);
+    background-color: transparent;
+    padding:10px 20px;
+    border: 2px solid rgba(174, 174, 184, 0.119);
+    border-radius:10px ;
+    margin-bottom: 0;
+}
+.gameInfo{
+    font-size: 20px;
+    color: crimson;
+    padding: auto;
+    font-weight: 800;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 116, 116);
+    border-radius: 50px;
+    margin: auto;
+}
+.buttonPatent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+    border: 5px solid rgb(255, 112, 112);
+}
+.green{
+    background-color: green;
+    border: 5px solid rgb(73, 112, 73);
+}
+.yellow{
+    background-color: yellow;
+    border: 5px solid rgb(252, 252, 140);
+}
+.blue{
+    background-color: blue;
+    border: 5px solid rgb(128, 128, 253);
+}
+.gameFlash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(40, 238, 245);
+}
+div p{
+    opacity: .4;
+    font-size: 150px;
+    margin: auto;
+    color: rgba(127, 0, 152, 0.526);
+}
+@media screen and (max-width:600px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .box{
+        width: 400px;
+        height: 400px;
+    }
+    .button{
+        width: 150px;
+        height: 150px;
+    }
+    h1,h2{
+        font-size: 20px;
+    }
+    div p{
+        font-size: 100px;
+    }
+}
+@media (max-width: 500px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+    }
+    .button{
+        width: 100px;
+        height: 100px;
+    }
+    h1,h2{
+        font-size: 20px;
+    }
+    div p{
+        font-size: 80px;
+    }
+}
